@@ -29,88 +29,258 @@ For large dungeon grids the amount of iterations may be too much. For dungeon gr
 ## Sample Output
 
 $ ./a.out 1 1
+
+
  2,
+ 
+ 
 Minimum Knight HitPoints to rescue princess: -2
+
+
 $ ./a.out 2 2
+
+
  0, -2,
+
+
 -4, -3,
+
+
 Minimum Knight HitPoints to rescue princess: 5
+
+
 $ ./a.out 2 2
+
+
  1, -3,
+
+
 -1, -2,
+
+
 Minimum Knight HitPoints to rescue princess: 2
+
+
 $ ./a.out 2 2
+
+
 -4, -3,
+
+
  1, -3,
+
+
 Minimum Knight HitPoints to rescue princess: 6
+
+
 $ ./a.out 2 2
+
+
 -3,  0,
+
+
 -3,  1,
+
+
 Minimum Knight HitPoints to rescue princess: 2
+
+
 $ ./a.out 2 2
+
+
  1, -3,
+
+
 -3, -3,
+
+
 Minimum Knight HitPoints to rescue princess: 5
+
+
 $ ./a.out 3 3
+
+
 -3,  0,  0,
+
+
 -1,  0,  0,
+
+
  2, -1, -4,
+
+
 Minimum Knight HitPoints to rescue princess: 7
+
+
 $ ./a.out 3 3
+
+
  0, -2,  2,
+
+
  1, -2, -1,
+
+
  0, -1, -1,
+
+
 Minimum Knight HitPoints to rescue princess: 1
+
+
 $ ./a.out 3 3
+
+
  1, -3,  1,
+
+
  0,  0, -3,
+
+
  2,  1, -3,
+
+
 Minimum Knight HitPoints to rescue princess: -1
+
+
 $ ./a.out 3 3
+
+
  1, -3, -2,
+
+
 -2, -2, -1,
+
+
  2, -1,  0,
+
+
 Minimum Knight HitPoints to rescue princess: 0
+
+
 $ ./a.out 3 3
+
+
 -1, -3,  2,
+
+
  0, -4,  0,
+
+
  1, -2, -1,
+
+
 Minimum Knight HitPoints to rescue princess: 3
+
+
 $ ./a.out 4 4
+
+
  2,  1, -3, -3,
+
+
 -2,  0, -2, -2,
+
+
 -4,  1,  0, -3,
+
+
  0, -2, -2, -3,
+
+
 Minimum Knight HitPoints to rescue princess: 1
+
+
 $ ./a.out 4 4
+
+
 -3, -2,  0,  2,
+
+
  2, -1,  2, -3,
+
+
  2, -1,  2, -3,
+
+
 -4,  0,  2,  2,
+
+
 Minimum Knight HitPoints to rescue princess: -6
+
+
 $ ./a.out 3 2
+
+
 -1, -4,
+
+
  1, -3,
+
+
 -1,  1,
+
+
 Minimum Knight HitPoints to rescue princess: 0
+
+
 $ ./a.out 3 2
+
+
 -4, -2,
+
+
 -2,  1,
+
+
  0, -1,
+
+
 Minimum Knight HitPoints to rescue princess: 6
+
+
 $ ./a.out 3 5
+
+
 -1, -1,  0,  2,  0,
+
+
  2,  0, -2, -2, -2,
+
+
  0,  1, -4,  0, -1,
+
+
 Minimum Knight HitPoints to rescue princess: 3
+
+
 $ ./a.out 3 5
+
+
 -1, -4,  0, -3,  2,
+
+
 -4,  2,  1,  2,  1,
+
+
  2,  2,  0, -2,  1,
+
+
 Minimum Knight HitPoints to rescue princess: -2
+
+
 $ ./a.out 3 5
+
+
 -2, -1, -2,  0, -2,
+
+
  1, -4, -2, -1,  0,
+
+
 -2,  1, -2, -3,  2,
+
+
 Minimum Knight HitPoints to rescue princess: 4
+
+
 
