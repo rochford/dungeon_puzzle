@@ -57,7 +57,6 @@ int calculateMinimumKnightHitPointsToRescuePrincess(const vector<vector<int>>& d
     int bestScore = numeric_limits<int>::min();
     int iterations = pow(width,height) * 10;
     while (iterations-- > 0) {
-//        cout << "\nnew iteration" << endl;
         int currentPosX = 0;
         int currentPosY = 0;
         int currentScore = 0;
@@ -87,11 +86,6 @@ int calculateMinimumKnightHitPointsToRescuePrincess(const vector<vector<int>>& d
 //                cout << " currentscore: " << currentScore << endl;
             }
 
-            // if currentScore is negative then knight is dead; - break
-            if (currentScore < 0) {
-                // cout << "Knight is dead, so break";
-                //break;
-            }
             // Is the knight in the princess square bottom right?
             if ( (currentPosX == width) && (currentPosY == height)) {
                 if (currentScore > bestScore) {
